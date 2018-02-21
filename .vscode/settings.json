@@ -1,0 +1,72 @@
+{
+    "window.zoomLevel": 0,
+    "git.confirmSync": false,
+    "editor.fontSize": 14,
+    "files.exclude": {
+        "**/.git": false
+   },
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.iconTheme": "vscode-icons",
+    "TodoParser": {
+        "exclude": ["cpp", "c"],
+        "include": ["js"],
+        "folderExclude": ["node_modules", ".vscode"],
+        "only": ["sub-folder/sub-sub-folder"],
+        "showInProblems": false,
+        "markers": ["NOTE:", "REMINDER:", ["FIXME", "Warning"]],
+        "autoDefaultMarkers": true
+    },
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywordsPattern": "TODO:|FIXME:|REMINDER:|NOTE:",
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+    "todohighlight.maxFilesForSearch": 5120,
+    "todohighlight.toggleURI": false,
+    "todohighlight.defaultStyle": {},
+    "npm.autoDetect": "on",
+    "npm.runSilent": false,
+    "eslint.enable": true,
+    "eslint.nodePath": null,
+    "eslint._legacyModuleResolve": false,
+    "eslint.options": {},
+    "eslint.trace.server": "off",
+    "eslint.run": "onType",
+    "eslint.autoFixOnSave": false,
+    "eslint.workingDirectories": [],
+    "eslint.validate": ["javascript", "javascriptreact"],
+    "prettier.eslintIntegration": true,
+    "editor.formatOnSave": false,
+    "prettier.tabWidth": 2,
+    "prettier.printWidth": 80,
+    "prettier.trailingComma": "none",
+    "prettier.parser": "babylon",
+    "prettier.semi": true,
+    "prettier.useTabs": false,
+    "prettier.javascriptEnable": ["javascript", "javascriptreact"],
+    "prettier.typescriptEnable": ["typescript", "typescriptreact"],
+    "prettier.jsonEnable": [
+        "json"
+    ]
+}

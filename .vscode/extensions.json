@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "CoenraadS.bracket-pair-colorizer",
+        "anseki.vscode-color",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "zhuangtongfa.material-theme",
+        "christian-kohler.path-intellisense",
+        "wayou.vscode-todo-highlight",
+        "minhthai.vscode-todo-parser",
+        "robertohuertasm.vscode-icons",
+        "rebornix.project-snippets",
+        "esbenp.prettier-vscode"
+    ]
+}
