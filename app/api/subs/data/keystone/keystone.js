@@ -12,7 +12,7 @@ class mythicKeystone {
 
   async leaderboardIndex(realmName) {
     if (arguments.length !== 1) {
-      throw new TypeError('GEÇERSİZ_İSTEK', 'Arguman_Sayısı', 'Bir arguman olmalı.');
+      throw new TypeError('INVALID_FIELD', 'FIELD_SIZE', 'Field can not be empty!');
     }
     const apiURL = await this._makeURL(realmName, this.options, false);
     if (apiURL && typeof apiURL !== 'undefined') {
@@ -29,7 +29,7 @@ class mythicKeystone {
 
   async leaderboard(slug, dgName, period) {
     if (arguments.length < 2 || arguments.length > 3) {
-      throw new TypeError('GEÇERSİZ_İSTEK', 'Arguman_Sayısı', 'Hatalı arguman!');
+      throw new TypeError('INVALID_FIELD', 'FIELD_SIZE', 'Fault field!');
     }
     const data = dungeons.getDungeon(dgName);
     data.period = period || '634';

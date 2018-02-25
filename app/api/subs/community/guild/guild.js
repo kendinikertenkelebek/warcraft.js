@@ -81,9 +81,9 @@ class Guild {
 
   async multi(guildName, fieldOne, fieldTwo, fieldThree, fieldFour) {
     if (arguments.length < 3) {
-      throw new TypeError('BOŞ_BIRAKILAN_ALAN', 'Field_Sayısı', 'İki ya da daha çok olmalı.');
+      throw new TypeError('EMPTY_FIELDS', 'Field_Number', 'Must be 2 or more!');
     } else if (arguments.length > 5) {
-      throw new TypeError('FAZLA_İSTEK_SAYISI', 'Field_Sayısı', 'Dörtten çok olamaz');
+      throw new TypeError('OVER_FIELD_SIZE', 'Field_Number', 'Can not be more than 4!');
     }
     var validFields = ['members', 'achievements', 'challenge', 'news'];
     var fields = '';
@@ -106,7 +106,7 @@ class Guild {
     ) {
       fields = fieldOne + ',' + fieldTwo; // eslint-disable-line prefer-template
     } else {
-      throw new TypeError('GEÇERSİZ_ALAN', 'YAZIM_HATASI', 'İstekleri kontrol edin!');
+      throw new TypeError('INVALID_FIELD', 'TYPO', 'Check field/s!');
     }
     const apiURL = this._makeURL(guildName, this.options, fields);
     if (apiURL && typeof apiURL !== 'undefined') {

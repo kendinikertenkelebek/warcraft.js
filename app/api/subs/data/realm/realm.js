@@ -11,7 +11,7 @@ class Realm {
 
   async getRealmIndex() {
     if (arguments.length > 0) {
-      throw new TypeError('GEÇERSİZ_İSTEK', 'Arguman_Sayısı', 'Bu fonksiyon arguman içermiyor.');
+      throw new TypeError('INVALID_FIELD', 'FIELD_SIZE', 'error');
     }
     const apiURL = this._makeURL(this.options, false);
     if (apiURL && typeof apiURL !== 'undefined') {
@@ -28,7 +28,7 @@ class Realm {
 
   async getRealm(slug) {
     if (arguments.length < 1) {
-      throw new TypeError('GEÇERSİZ_İSTEK', 'Arguman_Sayısı', 'Bir arguman olmalı.');
+      throw new TypeError('INVALID_FIELD', 'FIELD_SIZE', 'error');
     }
     const apiURL = this._makeURL(this.options, slug, true);
     if (apiURL && typeof apiURL !== 'undefined') {

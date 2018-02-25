@@ -9,10 +9,10 @@ class Validate {
 
   static _options(configs) {
     if (typeof configs.apiKey !== 'string' || configs.apiKey.length < 10) {
-      throw new TypeError('GEÇERSİZ_MODUL_AYARI', 'apiKey', 'String olmalı');
+      throw new TypeError('INVALID_MODULE_SETTINGS', 'apiKey', 'Must be String');
     }
     if (typeof configs.access_token !== 'string' || configs.apiKey.length < 10) {
-      throw new TypeError('GEÇERSİZ_MODUL_AYARI', 'access_token', 'String olmalı');
+      throw new TypeError('INVALID_MODULE_SETTINGS', 'access_token', 'Must be String');
     }
   }
 }
