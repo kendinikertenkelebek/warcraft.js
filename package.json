@@ -18,7 +18,7 @@
   },
   "os": ["darwin", "linux", "win64"],
   "engines": {
-    "node": ">=9.5.0",
+    "node": ">=9.6.1",
     "npm": ">=5.6.0"
   },
   "homepage": "https://github.com/kendinikertenkelebek/warcraft.js",
