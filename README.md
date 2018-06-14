@@ -6,7 +6,6 @@
 <h4 align="center">Prepare Yourself!</h4>
 <p align="center">
   <a href="http://nodejs.org"><img src="https://img.shields.io/badge/Node.js-9.6.1-blue.svg" alt="Node JS"></a>
-  <a href="http://npmjs.com"><img src="https://img.shields.io/badge/npm-not.yet-blue.svg" alt="npm"></a>
   <a><img src="https://david-dm.org/kendinikertenkelebek/warcraft.js.svg"></a>
   <a><img src="https://img.shields.io/badge/status-BETA-orenge.svg" alt="Version"</a>
   <a><img src="https://img.shields.io/badge/platform-osx%20%7C%20linux%20%7C%20win-red.svg" alt="platforms"</a>
@@ -14,7 +13,7 @@
 
 ### Installation
 
-Warcraft.JS requires [Node.JS](https://nodejs.org/) v9.6.1 >= to run.
+Warcraft.JS requires [Node.JS](https://nodejs.org/) v10.4.0 >= to run.
 
 Install the dependencies and start using.
 
