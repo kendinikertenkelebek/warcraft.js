@@ -1,7 +1,7 @@
 'use strict';
 
-if (process.version.slice(1).split('.')[0] < 9 && process.version.slice(1).split('.')[1] < 6) {
-  throw new Error('Node 9.5.0 ya da daha yüksek bir sürüm gerekiyor. Lütfen güncelleyin.');
+if (process.version.slice(1).split('.')[0] < 10 && process.version.slice(1).split('.')[1] < 4) {
+  throw new Error('Please install Node.JS 10.4.0 or higher version.');
 }
 
 module.exports = {
