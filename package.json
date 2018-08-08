@@ -1,6 +1,6 @@
 {
   "name": "warcraf.js",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Blizzard API module",
   "main": "app.js",
   "scripts": {
