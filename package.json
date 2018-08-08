@@ -1,5 +1,5 @@
 {
-  "name": "warcraf.js",
+  "name": "warcraft.js",
   "version": "0.7.1",
   "description": "Blizzard API module",
   "main": "app.js",
