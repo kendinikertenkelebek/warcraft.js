@@ -4,7 +4,7 @@
   <br />
 </h1>
 <p align="center">
-    <a href="https://discord.gg/"><img src="https://discordapp.com/api/guilds/469879914313547776/embed.png" alt="Discord server" /></a>
+    <a href="https://discord.gg/P5aGjQC"><img src="https://discordapp.com/api/guilds/476570288285548545/embed.png" alt="Discord server" /></a>
     <a href="https://www.npmjs.com/package/warcraft.js"><img src="https://img.shields.io/npm/v/warcraft.js.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/warcraft.js"><img src="https://img.shields.io/npm/dt/warcraft.js.svg?maxAge=3600" alt="NPM downloads" /></a>
     <a href="https://www.codacy.com/project/kendinikertenkelebek/warcraft.js/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kendinikertenkelebek/warcraft.js&amp;utm_campaign=Badge_Grade_Dashboard"><img src="https://api.codacy.com/project/badge/Grade/58c302f9bf2e4bc0be8915a4579423fa"/></a>

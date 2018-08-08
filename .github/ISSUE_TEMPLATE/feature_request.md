@@ -6,7 +6,7 @@ about: Request a new feature that warcraft.js is missing
 
 <!--
 If you need help with warcraft.js installation or usage, please go to the warcraft.js Discord server instead:
-  https://discord.gg/
+  https://discord.gg/P5aGjQC
 This issue tracker is only for bug reports and enhancement suggestions. You won't receive any basic help here.
 -->
 

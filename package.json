@@ -20,7 +20,8 @@
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "eslint": "^4.18.0"
+    "eslint": "^4.18.0",
+    "@types/node": "^10.5.5"
   },
   "os": [
     "darwin",
