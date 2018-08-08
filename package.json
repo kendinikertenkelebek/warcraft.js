@@ -1,11 +1,11 @@
 {
   "name": "warcraf",
   "version": "0.7.0",
-  "description": "Blizzard api module",
+  "description": "Blizzard API module",
   "private": true,
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "keywords": [
     "world of warcraft",
@@ -21,8 +21,7 @@
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "eslint": "^4.18.0",
-    "nodemon": "^1.15.1"
+    "eslint": "^4.18.0"
   },
   "os": [
     "darwin",
@@ -30,8 +29,8 @@
     "win64"
   ],
   "engines": {
-    "node": ">=10.4.0",
-    "npm": ">=6.1.0"
+    "node": ">=10.8.0",
+    "npm": ">=6.3.0"
   },
   "homepage": "https://github.com/kendinikertenkelebek/warcraft.js",
   "repository": {
@@ -45,5 +44,5 @@
   "contributors": [
     "Yankı Küçük <kendinikertenkelebek@me.com> (https://pulseoriginal.github.io)"
   ],
-  "license": "ISC"
+  "license": "Apache-2.0"
 }

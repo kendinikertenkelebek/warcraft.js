@@ -16,11 +16,10 @@ class Guild {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   async members(guildName) {
@@ -30,11 +29,10 @@ class Guild {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   async achievements(guildName) {
@@ -44,11 +42,10 @@ class Guild {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   async challenge(guildName) {
@@ -58,11 +55,10 @@ class Guild {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   async news(guildName) {
@@ -72,11 +68,10 @@ class Guild {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   async multi(guildName, fieldOne, fieldTwo, fieldThree, fieldFour) {
@@ -87,14 +82,16 @@ class Guild {
     }
     var validFields = ['members', 'achievements', 'challenge', 'news'];
     var fields = '';
-    if (fieldFour &&
+    if (
+      fieldFour &&
       typeof validFields.find(item => item === fieldFour.toLowerCase()) === 'string' &&
       typeof validFields.find(item => item === fieldThree.toLowerCase()) === 'string' &&
       typeof validFields.find(item => item === fieldTwo.toLowerCase()) === 'string' &&
       typeof validFields.find(item => item === fieldOne.toLowerCase()) === 'string'
     ) {
       fields = fieldOne + ',' + fieldTwo + ',' + fieldThree + ',' + fieldFour; // eslint-disable-line prefer-template
-    } else if (fieldThree &&
+    } else if (
+      fieldThree &&
       typeof validFields.find(item => item === fieldThree.toLowerCase()) === 'string' &&
       typeof validFields.find(item => item === fieldTwo.toLowerCase()) === 'string' &&
       typeof validFields.find(item => item === fieldOne.toLowerCase()) === 'string'
@@ -114,11 +111,10 @@ class Guild {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   _makeURL(guildName, options, field) {

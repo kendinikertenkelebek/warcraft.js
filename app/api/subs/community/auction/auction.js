@@ -16,13 +16,11 @@ class Auction {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
-
 
   _makeURL(options, realmName) {
     const endpoint = endpoints.getEndpoint(options.region, options.locale);

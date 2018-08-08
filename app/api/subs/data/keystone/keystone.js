@@ -20,11 +20,10 @@ class mythicKeystone {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   async leaderboard(slug, dgName, period) {
@@ -39,11 +38,10 @@ class mythicKeystone {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   async _makeURL(realmName, options, data) {
@@ -72,7 +70,8 @@ class mythicKeystone {
     return reqURL;
   }
 
-  async _getConnectedId(realmName, options) { // eslint-disable-line consistent-return
+  async _getConnectedId(realmName, options) {
+    // eslint-disable-line consistent-return
     const endpoint = endpoints.getEndpoint(options.region, options.locale);
     const link = Urls.realm
       .replace(/\{hostname\}/, endpoint.hostname)
@@ -87,10 +86,10 @@ class mythicKeystone {
         const response = await request(reqURL);
         return response.connected_realm.href.split('connected-realm/')[1].split('?')[0];
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
+    return undefined;
   }
 }
 

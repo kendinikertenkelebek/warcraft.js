@@ -1,7 +1,7 @@
-**Lütfen bu PR'ın yaptığı değişiklikleri ve nden birleştirilmesi gerektiğini açıklayınız:**
+**Please describe the changes this PR makes and why it should be merged:**
 
+**Semantic versioning classification:**
 
-**Semantik sürüm oluşturma sınıflandırması:**  
-- [ ] Bu PR kütüphanenin arayüzünü değiştirir (Method yada parametre eklenemsi)
-  - [ ] Bu PR değişiklikler içerir (Method silinmesi yada yeniden adlandırılaması, farklı yöntemler)
-- [ ] Bu PR **sadece** kod-dışı değişiklikler içerir (dökümantasyon, README, websitesi vs.)
+- [ ] This PR changes the library's interface (methods or parameters added)
+  - [ ] This PR includes breaking changes (methods removed or renamed, parameters moved or removed)
+- [ ] This PR **only** includes non-code changes, like changes to documentation, README, etc.

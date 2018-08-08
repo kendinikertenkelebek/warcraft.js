@@ -16,11 +16,10 @@ class Item {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   async set(setId) {
@@ -30,11 +29,10 @@ class Item {
         const response = await request(apiURL);
         return response;
       } catch (err) {
-        const fail = { fail: true };
-        return fail;
+        return false;
       }
     }
-    return null;
+    return undefined;
   }
 
   _makeURL(itemId, options, isSet) {
