@@ -3,7 +3,6 @@
   <a href="https://discordapp.com"><img src="https://image.ibb.co/mXW9GK/qGA4dq.png" alt="Warcraft.JS" width="200"></a>
   <br />
 </h1>
-<h4 align="center">Prepare Yourself!</h4>
 <p align="center">
     <a href="https://discord.gg/"><img src="https://discordapp.com/api/guilds/469879914313547776/embed.png" alt="Discord server" /></a>
     <a href="https://www.npmjs.com/package/warcraft.js"><img src="https://img.shields.io/npm/v/warcraft.js.svg?maxAge=3600" alt="NPM version" /></a>
@@ -12,8 +11,8 @@
     <a href="https://github.com/kendinikertenkelebek/warcraft.js/issues"><img src="https://img.shields.io/github/issues/kendinikertenkelebek/warcraft.js.svg" alt="warcraft.js issues"></a>
     <a href="https://david-dm.org/kendinikertenkelebek/warcraft.js"><img src="https://david-dm.org/kendinikertenkelebek/warcraft.js/status.svg?maxAge=3600" alt="Dependencies" /></a>
   </p>
-  <p>
-    <a href="https://nodei.co/npm/warcraft.js/"><img src="https://nodei.co/npm/warcraft.js.png?downloads=true&downloadRank=true&stars=true" alt="npm installnfo" /></a>
+<p align="center">
+  <a href="https://nodei.co/npm/warcraft.js/"><img src="https://nodei.co/npm/warcraft.js.png?downloads=true&downloadRank=true&stars=true" alt="npm installnfo" /></a>
 </p>
 
 # About
