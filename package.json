@@ -1,8 +1,7 @@
 {
-  "name": "warcraf",
+  "name": "warcraf.js",
   "version": "0.7.0",
   "description": "Blizzard API module",
-  "private": true,
   "main": "app.js",
   "scripts": {
     "test": "node test/test.js"
@@ -42,7 +41,7 @@
   },
   "author": "Yankı Küçük <kendinikertenkelebek@me.com> (https://github.com/kendinikertenkelebek)",
   "contributors": [
-    "Yankı Küçük <kendinikertenkelebek@me.com> (https://pulseoriginal.github.io)"
+    "Yankı Küçük <kendinikertenkelebek@me.com>"
   ],
   "license": "Apache-2.0"
 }
