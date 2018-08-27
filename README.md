@@ -17,7 +17,7 @@
 
 # About
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid) [![Greenkeeper badge](https://badges.greenkeeper.io/kendinikertenkelebek/warcraft.js.svg)](https://greenkeeper.io/)
 
 warcraft.js was developing for CyberEngine. And now, she is **open source**! warcraft.js connecting [Blizzard API][blizzardapi] and getting some in game data for you.
 
